@@ -22,7 +22,7 @@ object RetrofitBuilder {
 
 interface TopHeadlines {
     //Replace YOUR_API_KEY with your api key from https://newsapi.org
-    @Headers("Authorization: ce315bb914ab44d7866da6788eeed502")
+    @Headers("Your API_KEY with Authorization")
     @GET("/v2/top-headlines?country=id")
     fun fetchHeadlines(): Call<ResponseNews>
 }
